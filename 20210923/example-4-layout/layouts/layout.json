@@ -1,0 +1,340 @@
+[
+  {
+    "type": "column",
+    "isClosable": true,
+    "reorderEnabled": true,
+    "title": "",
+    "content": [
+      {
+        "type": "row",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "height": 40.6282722513089,
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "width": 64.41441441441441,
+            "activeItemIndex": 2,
+            "content": [
+              {
+                "type": "react-component",
+                "component": "ConsolePanel",
+                "title": "Console",
+                "isClosable": false,
+                "id": "xbK9FKr16",
+                "props": {
+                  "metadata": {},
+                  "panelState": {
+                    "consoleSettings": {},
+                    "itemIds": []
+                  }
+                },
+                "componentName": "lm-react-component",
+                "reorderEnabled": true,
+                "componentState": null
+              },
+              {
+                "component": "LogPanel",
+                "isClosable": false,
+                "title": "Log",
+                "type": "react-component",
+                "props": {},
+                "id": "HJEbq4Csat",
+                "componentName": "lm-react-component",
+                "reorderEnabled": true,
+                "componentState": null
+              },
+              {
+                "type": "react-component",
+                "component": "MarkdownPanel",
+                "props": {
+                  "metadata": {},
+                  "panelState": {
+                    "content": "# Welcome to the Devin's DevRel Learning 20210923\n\nSome things about this:\n\n...."
+                  }
+                },
+                "title": "Note",
+                "id": "7DE2YQXj6",
+                "componentName": "lm-react-component",
+                "isClosable": true,
+                "reorderEnabled": true,
+                "componentState": null
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "width": 35.58558558558559,
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "react-component",
+                "component": "CommandHistoryPanel",
+                "title": "Command History",
+                "isClosable": false,
+                "id": "gdGYzoJrqC",
+                "props": {
+                  "metadata": {},
+                  "panelState": {}
+                },
+                "componentName": "lm-react-component",
+                "reorderEnabled": true,
+                "componentState": null
+              },
+              {
+                "type": "react-component",
+                "component": "FileExplorerPanel",
+                "title": "File Explorer",
+                "isClosable": false,
+                "id": "BVd05YwK-5",
+                "props": {},
+                "componentName": "lm-react-component",
+                "reorderEnabled": true,
+                "componentState": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "height": 59.37172774869111,
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 59.37172774869111,
+            "activeItemIndex": 0,
+            "width": 20.27034224050457,
+            "content": [
+              {
+                "type": "react-component",
+                "component": "IrisGridPanel",
+                "props": {
+                  "metadata": {
+                    "table": "cy9pbnB1dHM="
+                  },
+                  "panelState": {
+                    "irisGridPanelState": {
+                      "isSelectingPartition": false,
+                      "partition": null,
+                      "partitionColumn": null
+                    },
+                    "irisGridState": {
+                      "advancedFilters": [],
+                      "advancedSettings": [
+                        [
+                          "filter-control-change-clears-all-filters",
+                          false
+                        ],
+                        [
+                          "link-change-clears-all-filters",
+                          false
+                        ]
+                      ],
+                      "aggregationSettings": {
+                        "aggregations": [],
+                        "showOnTop": false
+                      },
+                      "customColumnFormatMap": [],
+                      "isFilterBarShown": false,
+                      "quickFilters": [],
+                      "sorts": [],
+                      "userColumnWidths": [],
+                      "userRowHeights": [],
+                      "customColumns": [],
+                      "reverseType": "none",
+                      "rollupConfig": null,
+                      "showSearchBar": false,
+                      "searchValue": "",
+                      "selectDistinctColumns": [],
+                      "selectedSearchColumns": [],
+                      "invertSearchColumns": true,
+                      "pendingDataMap": []
+                    },
+                    "gridState": {
+                      "movedColumns": [],
+                      "movedRows": []
+                    }
+                  }
+                },
+                "title": "inputs.csv",
+                "id": "mtZvGrSY5",
+                "componentName": "lm-react-component",
+                "isClosable": true,
+                "reorderEnabled": true,
+                "componentState": null
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "header": {},
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "width": 44.35163957957357,
+            "content": [
+              {
+                "type": "react-component",
+                "component": "IrisGridPanel",
+                "props": {
+                  "metadata": {
+                    "table": "cy9pbnB1dHNfd2l0aF9pbmZv"
+                  },
+                  "panelState": {
+                    "irisGridPanelState": {
+                      "isSelectingPartition": false,
+                      "partition": null,
+                      "partitionColumn": null
+                    },
+                    "irisGridState": {
+                      "advancedFilters": [],
+                      "advancedSettings": [
+                        [
+                          "filter-control-change-clears-all-filters",
+                          false
+                        ],
+                        [
+                          "link-change-clears-all-filters",
+                          false
+                        ]
+                      ],
+                      "aggregationSettings": {
+                        "aggregations": [],
+                        "showOnTop": false
+                      },
+                      "customColumnFormatMap": [],
+                      "isFilterBarShown": false,
+                      "quickFilters": [],
+                      "sorts": [],
+                      "userColumnWidths": [
+                        [
+                          "Input",
+                          253
+                        ],
+                        [
+                          "Name",
+                          231
+                        ]
+                      ],
+                      "userRowHeights": [],
+                      "customColumns": [],
+                      "reverseType": "none",
+                      "rollupConfig": null,
+                      "showSearchBar": false,
+                      "searchValue": "",
+                      "selectDistinctColumns": [],
+                      "selectedSearchColumns": [],
+                      "invertSearchColumns": true,
+                      "pendingDataMap": []
+                    },
+                    "gridState": {
+                      "movedColumns": [],
+                      "movedRows": []
+                    }
+                  }
+                },
+                "title": "Decorated Info",
+                "id": "JoinESLTn",
+                "componentName": "lm-react-component",
+                "isClosable": true,
+                "reorderEnabled": true,
+                "componentState": null
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "header": {},
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "width": 35.37801817992187,
+            "height": 100,
+            "content": [
+              {
+                "type": "react-component",
+                "component": "IrisGridPanel",
+                "props": {
+                  "metadata": {
+                    "table": "cy9kaXN0YW5jZXM="
+                  },
+                  "panelState": {
+                    "irisGridPanelState": {
+                      "isSelectingPartition": false,
+                      "partition": null,
+                      "partitionColumn": null
+                    },
+                    "irisGridState": {
+                      "advancedFilters": [],
+                      "advancedSettings": [
+                        [
+                          "filter-control-change-clears-all-filters",
+                          false
+                        ],
+                        [
+                          "link-change-clears-all-filters",
+                          false
+                        ]
+                      ],
+                      "aggregationSettings": {
+                        "aggregations": [],
+                        "showOnTop": false
+                      },
+                      "customColumnFormatMap": [],
+                      "isFilterBarShown": false,
+                      "quickFilters": [],
+                      "sorts": [
+                        {
+                          "column": 2,
+                          "isAbs": false,
+                          "direction": "ASC"
+                        }
+                      ],
+                      "userColumnWidths": [],
+                      "userRowHeights": [],
+                      "customColumns": [],
+                      "reverseType": "none",
+                      "rollupConfig": null,
+                      "showSearchBar": false,
+                      "searchValue": "",
+                      "selectDistinctColumns": [],
+                      "selectedSearchColumns": [],
+                      "invertSearchColumns": true,
+                      "pendingDataMap": []
+                    },
+                    "gridState": {
+                      "movedColumns": [],
+                      "movedRows": []
+                    }
+                  }
+                },
+                "title": "Distance Matrix",
+                "id": "cLXKP3Ght",
+                "componentName": "lm-react-component",
+                "isClosable": true,
+                "reorderEnabled": true,
+                "componentState": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
