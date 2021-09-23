@@ -1,0 +1,62 @@
+version: "3.4"
+
+services:
+
+  grpc-api:
+    image: devinrsmith/devrel-20210923:example-1-data
+    environment:
+      JAVA_TOOL_OPTIONS: -Xmx4g -Ddeephaven.console.type=python
+    deploy:
+      resources:
+        limits:
+          cpus: '4.0'
+          memory: 4500M
+        reservations:
+          memory: 1000M
+    volumes:
+      - data:/data
+      - cache:/cache
+
+  web:
+    image: ghcr.io/deephaven/web:edge
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 256M
+    volumes:
+      - web-tmp:/tmp
+
+  grpc-proxy:
+    image: ghcr.io/deephaven/grpc-proxy:edge
+    environment:
+      - BACKEND_ADDR=grpc-api:8080
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 256M
+    depends_on:
+      - grpc-api
+
+  envoy:
+    # A reverse proxy configured for no SSL on localhost. It fronts the requests
+    # for the static content and the websocket proxy.
+    image: ghcr.io/deephaven/envoy:edge
+    ports:
+      - "10043:10000"
+
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 256M
+    depends_on:
+      - web
+      - grpc-proxy
+      - grpc-api
+
+volumes:
+  data:
+  web-tmp:
+  cache:
